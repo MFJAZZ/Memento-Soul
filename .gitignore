@@ -72,3 +72,48 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Wwise files
+.cache
+*.akd
+*.prof
+*.validationcache
+*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+*.wsettings
+
+!Plugins/**/Binaries/*
+!Plugins/**/*.lib
+!Plugins/**/*.dll
+!Plugins/**/*.dylib
+!Plugins/**/*.a
+
+!Plugins/UEGitPlugin-release/git-lfs.exe
+Plugins/UnrealGuidFixer 1.2/GuidFixer.uplugin
+Plugins/UnrealGuidFixer 1.2/README.md
+Plugins/UnrealGuidFixer 1.2/Binaries/Win64/UnrealEditor.modules
+Plugins/UnrealGuidFixer 1.2/Binaries/Win64/UnrealEditor-GuidFixer.dll
+Plugins/UnrealGuidFixer 1.2/Binaries/Win64/UnrealEditor-GuidFixer.pdb
+Plugins/UnrealGuidFixer 1.2/Resources/EngineTextureButtonIcon_40x.png
+Plugins/UnrealGuidFixer 1.2/Resources/Icon128.png
+Plugins/UnrealGuidFixer 1.2/Resources/MaterialButtonIcon_64x.png
+Plugins/UnrealGuidFixer 1.2/Resources/TextureButtonIcon_40x.png
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/GuidFixer.Build.cs
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Private/GuidFixer.cpp
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Private/GuidFixerCommands.cpp
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Private/GuidFixerStyle.cpp
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Public/GuidFixer.h
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Public/GuidFixerCommands.h
+Plugins/UnrealGuidFixer 1.2/Source/GuidFixer/Public/GuidFixerStyle.h
+Config/DefaultNiagara.ini
+Content/Megascans/3D_Assets/Sandstone_Boulder_vmiibev/MI_Sandstone_Boulder_vmiibev_8K.uasset
+Content/Megascans/3D_Assets/Sandstone_Boulder_vmiibev/T_Sandstone_Boulder_vmiibev_8K_D.uasset
+Content/Megascans/3D_Assets/Sandstone_Boulder_vmiibev/T_Sandstone_Boulder_vmiibev_8K_N.uasset
+Content/Megascans/3D_Assets/Sandstone_Boulder_vmiibev/T_SandstoneBoulder_vmiibev_8K_DpR.uasset
+Content/Developer/Florent/TP/
+*.zip
+
+# dossier plugins Fmod
+Plugins/FMODStudio
+Plugins/FMODStudioNiagara
+
+Content/Biomes/PNB_Meadow_Forest/Maps/*
